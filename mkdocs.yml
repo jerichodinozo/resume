@@ -1,3 +1,4 @@
 site_name: Resume
 nav:
   - Home: resume.md
+theme: readthedocs
