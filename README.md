@@ -7,7 +7,7 @@ This document aims to guide readers who are interested in learning more about te
 ## Prerequisites
 - MacOS: For this guide I will be using a device with MacOS installed
 - Git installed
-- Github account
+- GitHub account
 - Python installed
 - Basic markdown knowledge
 
@@ -52,12 +52,12 @@ Deploying the project to GitHub is the next step to finishing our webpage.
 ## Resources
 
 ## FAQ
-- Why is Markdown better than writing raw HTML?  
+Why is Markdown better than writing raw HTML?  
 
-According to Etter's "Modern Technical Writing," some markup languages like HTML tend to require individuals to write less-human readable code that is not suited for an individual that has limited technical background. Markdown is a lightweight markup language that is very simple and easy to follow.
+- According to Etter's "Modern Technical Writing," some markup languages like HTML tend to require individuals to write less-human readable code that is not suited for an individual that has limited technical background. Markdown is a lightweight markup language that is very simple and easy to follow.
 
-- I changed the Markdown version of my resume, so why don’t I see the changes when I refresh the website in my browser?  
+I changed the Markdown version of my resume, so why don’t I see the changes when I refresh the website in my browser?  
 
-Changing the Markdown version of your resume is just one part of saving changes to your webpage. You will need to re-deploy your website on terminal to see the changes you've made.
+- Changing the Markdown version of your resume is just one part of saving changes to your webpage. You will need to re-deploy your website on terminal to see the changes you've made.
 
 ## Credits
