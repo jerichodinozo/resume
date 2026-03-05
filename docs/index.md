@@ -16,6 +16,7 @@ I am a 5th year computer science student at the University of Manitoba. I have a
 University of Manitoba -- Winnipeg, MB
 
 ##### Relevant Coursework:
+Distributed Computing, Application Security, Human-Computer Interaction, Aritificial Intelligence, Data Structures and Algorithms
 
 ---
 
