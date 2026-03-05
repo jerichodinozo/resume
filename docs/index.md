@@ -28,7 +28,7 @@ Distributed Message Board | Python, TCP and UDP Sockets, Multi-threading, SQLite
 - Enabled components to run on separate machines within the same network using message passing with length-prefixed frames and timeout handling
 - Demonstrated core distributed systems concepts including fault isolation, network transparency, and client–server architecture
 
-PCCM Community Website | React, JavaScript, HTML/CSS, Netlify
+PCCM Community Website | React, JavaScript, HTML/CSS, Netlifyll
 - Developed and maintained a community-focused website for the Philippine Community Centre Manitoba, supporting event announcements and organizational information
 - Implemented responsive layouts and reusable React components to improve usability across desktop and mobile devices
 - Worked closely with a graphic design intern to integrate visual assets and align the website with organizational branding
