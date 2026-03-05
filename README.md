@@ -1,6 +1,23 @@
 # Guide to hosting your resume to a webpage
 This is a guide on how to set up a webpage to display a resume.
 
+## Table of Contents
+
+1. [Purpose](#purpose)
+2. [Prerequisites](#prerequisites)
+3. [Instructions](#instructions)
+   - [1. MkDocs Installation](#1-mkdocs-installation)
+   - [2. Setting Up GitHub](#2-setting-up-github)
+   - [3. Create a MkDocs Project](#3-create-a-mkdocs-project)
+   - [4. Create a Markdown Resume](#4-create-a-markdown-resume)
+   - [5. Add Markdown Resume to Project Folder](#5-add-markdown-resume-to-project-folder)
+   - [6. Preview the Website](#6-preview-the-website)
+   - [7. Deploy Project](#7-deploy-project)
+   - [8. Enable GitHub Pages](#8-enable-github-pages)
+4. [Resources](#resources)
+5. [FAQ](#faq)
+6. [Credits](#credits)
+
 ## Purpose
 This document aims to guide readers who are interested in learning more about technical writing that possess basic understanding of Markdown and the command line interface but are inexperienced with version control systems and static site generators. By the end of this guide, the reader will be able to utilize the technologies mentioned above to host static webpages that follow the guidelines from Etter's "Modern Technical Writing: An Introduction to Software Writing." This guide will be guiding the reader how to use Github, MKDocs, and Github pages to host their webpage.
 
