@@ -94,7 +94,7 @@ python3 -m mkdocs serve
 ```
 
 ### 7. Push your files to GitHub
-Pushing your files to GitHub means saving the files from your local repository to the online repository. To push your files to GitHub, you will need to do the following:
+Pushing your files to GitHub means saving the files from your local repository to the online repository. According to Etter, individuals should aim to publish frequently to verify that the contents of the webpage is correct and to catch bugs that may occur. To push your files to GitHub, you will need to do the following:
 #### 7.1 Choose the files you want to push to GitHub
 You will need to specify what files you have modified and would like to be pushed on to the online repository, to do that, run the following command
 ```
@@ -133,6 +133,8 @@ To enable GitHub pages, follow the steps below:
 
 ## Resources
 - [commonmark.org](https://commonmark.org/help/tutorial/) is a great interactive learning tool for beginners learning Markdown. This resource allows individuals to learn about Markdown by performing hands-on tasks while introducing the Markdown syntax.
+
+- [Git and GitHub Tutorial for Beginners: An In-Depth Guide](https://medium.com/@obaff/git-and-github-tutorial-for-beginners-9abae4a530d4) is a great resource for learning the basics of Git and GitHub. This article goes over the fundamentals of GitHub.
 
 - [GitHub Pages documentation](https://docs.github.com/en/pages) is a great resource for learning more about GitHub pages. There are articles that inform readers the capabilities and features of GitHub pages.
 
