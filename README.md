@@ -6,14 +6,15 @@ This is a guide on how to set up a webpage to display a resume.
 1. [Purpose](#purpose)
 2. [Prerequisites](#prerequisites)
 3. [Instructions](#instructions)
-   - [1. MkDocs Installation](#1-MkDocs-installation)
-   - [2. Setting Up GitHub](#2-setting-up-github)
-   - [3. Create a MkDocs Project](#3-create-a-MkDocs-project)
+   - [1. MkDocs Installation](#1-mkdocs-installation)
+   - [2. Setting up GitHub](#2-setting-up-github)
+   - [3. Create a MkDocs Project](#3-create-a-mkdocs-project)
    - [4. Create a Markdown Resume](#4-create-a-markdown-resume)
    - [5. Add Markdown Resume to Project Folder](#5-add-markdown-resume-to-project-folder)
    - [6. Preview the Website](#6-preview-the-website)
-   - [7. Deploy Project](#7-deploy-project)
-   - [8. Enable GitHub Pages](#8-enable-github-pages)
+   - [7. Push your files to GitHub](#7-push-your-files-to-github)
+   - [8. Deploy MkDocs project](#8-deploy-mkdocs-project)
+   - [9. Enable GitHub Pages](#9-enable-github-pages)
 4. [Resources](#resources)
 5. [FAQ](#faq)
 6. [Credits](#credits)
@@ -84,7 +85,7 @@ Save your markdown resume and name it as "index.md"
 Add your markdown resume to the project folder, specifically in the following directory
 ```
 docs
-├─── index.md
+├─── index.md // replace the existing index.md with your resume
 ```
 ### 6. Preview the Website
 Previewing the website allows us to visualize the webpage. To preview our work so far, enter the following command in terminal.
@@ -92,10 +93,34 @@ Previewing the website allows us to visualize the webpage. To preview our work s
 python3 -m mkdocs serve
 ```
 
-### 7. Deploy Project
-Deploying the project to GitHub is the next step to finishing our webpage. 
+### 7. Push your files to GitHub
+Pushing your files to GitHub means saving the files from your local repository to the online repository. To push your files to GitHub, you will need to do the following:
+#### 7.1 Choose the files you want to push to GitHub
+You will need to specify what files you have modified and would like to be pushed on to the online repository, to do that, run the following command
+```
+git add index.md
+```
 
-### 8. Enable GitHub Pages
+#### 7.2 Commit changes
+After adding the files modified, you must commit your changes to GitHub and choose an appropriate message that describes the changes you've made.
+```
+git commit -m "added resume file"
+```
+
+#### 7.3 Push to origin
+Pushing to origin means to push your changes onto the online repository, this means that the changes you've made will be visible in the online repository.
+```
+git push origin
+```
+
+### 8. Deploy MkDocs project
+Deploying MkDocs project allows MkDocs to generate a static website using the index.md file that you have in the docs folder. To deploy, run the command below in terminal
+```
+python3 -m mkdocs gh-deploy
+```
+Running this command allows MkDocs to automatically create a gh-page branch and push them to GitHub.
+
+### 9. Enable GitHub Pages
 
 ## Resources
 - [commonmark.org](https://commonmark.org/help/tutorial/) is a great interactive learning tool for beginners learning Markdown. This resource allows individuals to learn about Markdown by performing hands-on tasks while introducing the Markdown syntax.
