@@ -48,7 +48,7 @@ Running the command above allows us to have MkDocs installed in our device.
 GitHub allows individuals to create repositories to store the files that are needed for projects. For this guide, we will need to create a repository before creating our local MkDocs project. GitHub uses Git as their version control system. Etter recommends using version control systems for projects, because they allow individuals to store documentations in the same place where the source code is, making it easier for documentations and code to stay synchronized.
 
 #### 2.1 Create a GitHub repository
-To create a GitHub repository, go to the repositories page of your profile and click "new"
+Create a GitHub repository by going to the repositories page of your profile and click "new"
 
 #### 2.2. Select a name for the repository
 Choose an easy to remember name for your repository.
@@ -150,7 +150,8 @@ To enable GitHub pages, follow the steps below:
 - Changing the Markdown version of your resume is just one part of saving changes to your webpage. You will need to re-deploy your website on terminal to see the changes you've made.
 
 ## Credits
+#### Author: Jericho Dinozo
+#### Peer edited by:
 
-### add more etter's principles
-### add credits
-### add steps to FAQ when appropriate
+- Norbert Siemens Harder
+- Iteoluwakisi Oyebisi Oyewusi
