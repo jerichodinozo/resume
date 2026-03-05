@@ -77,7 +77,15 @@ python3 -m mkdocs new <title of your project>
 ### 4. Create a Markdown Resume
 Creating a Markdown resume is simple. For this guide, we took an existing resume and converted it to the Markdown format. Be sure to use appropriate headings and lists when it is needed.
 
+#### 4.1. Save Markdown Resume
+Save your markdown resume and name it as "index.md"
+
 ### 5. Add Markdown Resume to Project Folder
+Add your markdown resume to the project folder, specifically in the following directory
+
+docs
+├─── index.md
+
 
 ### 6. Preview the Website
 Previewing the website allows us to visualize the webpage. To preview our work so far, enter the following command in terminal.
