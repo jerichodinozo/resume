@@ -32,7 +32,7 @@ This document aims to guide readers who are interested in learning more about te
 ## Instructions
 
 ### 1. MkDocs installation
-Building a website from scratch can be very tedious. Basic static webpages require knowledge of HTML, some CSS, and maybe some Javascript. Static website generators are tools that help lower the barrier of entry to building websites. In this guide, we will be using the static site generator MkDocs to generate our webpage.
+Building a website from scratch can be very tedious. Basic webpages require knowledge of HTML, some CSS, and maybe some Javascript. From Etter's principles, creating static webpages allows for speed, simplicity, portability, and security. Static website generators are tools that help lower the barrier of entry to building websites. In this guide, we will be using the static site generator MkDocs to generate our webpage.
 
 #### 1.1: Open terminal
 Opening terminal will allow us to install the various programs that we will be needing throughout this guide.
@@ -76,7 +76,7 @@ python3 -m mkdocs new <title of your project>
 
 
 ### 4. Create a Markdown Resume
-Creating a Markdown resume is simple. For this guide, we took an existing resume and converted it to the Markdown format. Be sure to use appropriate headings and lists when it is needed.
+Creating a Markdown resume is simple. According to Etter, using a lightweight markup language makes it simpler for individuals with limited technical background knowledge. Instead of using HTML, we will be using Markdown to create our resume. For this guide, we took an existing resume and converted it to the Markdown format. Be sure to use appropriate headings and lists when it is needed.
 
 #### 4.1. Save Markdown Resume
 Save your markdown resume and name it as "index.md"
@@ -121,6 +121,15 @@ python3 -m mkdocs gh-deploy
 Running this command allows MkDocs to automatically create a gh-page branch and push them to GitHub.
 
 ### 9. Enable GitHub Pages
+Enabling GitHub pages allows individuals to have their websites hosted through GitHub. In this case, we are displaying a resume in the webpage. According to Etter, building a website instead of distributing PDF files of a resume is optimal, because it allows the owner of that resume to constantly update their resume and fix inaccuracies easily, giving them full control over their resume.
+
+To enable GitHub pages, follow the steps below:
+#### 9.1. Steps to enable GitHub Pages
+1. Head over to you repository
+2. Go to the settings tab
+3. On the left side of the page under "Code and automation" select "Pages"
+4. Under "Branch" select "gh-pages" as the branch
+5. Next to the branch select "/(root)" as your folder
 
 ## Resources
 - [commonmark.org](https://commonmark.org/help/tutorial/) is a great interactive learning tool for beginners learning Markdown. This resource allows individuals to learn about Markdown by performing hands-on tasks while introducing the Markdown syntax.
@@ -141,3 +150,7 @@ Running this command allows MkDocs to automatically create a gh-page branch and 
 - Changing the Markdown version of your resume is just one part of saving changes to your webpage. You will need to re-deploy your website on terminal to see the changes you've made.
 
 ## Credits
+
+### add more etter's principles
+### add credits
+### add steps to FAQ when appropriate
