@@ -26,11 +26,31 @@ python3 -m pip install mkdocs
 ```
 Running the command above allows us to have MKDocs installed in our device.
 
-### 2. Create a GitHub Repository
+### 2. Setting up GitHub
+GitHub allows individuals to create repositories to store the files that are needed for projects. For this guide, we will need to create a repository before creating our local MKDocs project. GitHub uses Git as their version control system. Etter recommends using version control systems for projects, because they allow individuals to store documentations in the same place where the source code is, making it easier for documentations and code to stay synchronized.
 
-### 3. Clone GitHub Repository to your Machine
+#### 2.1 Create a GitHub repository
+To create a GitHub repository, go to the repositories page of your profile and click "new"
 
-### 4. Create a MKDocs Project
+#### 2.2. Select a name for the repository
+Choose an easy to remember name for your repository.
+
+#### 2.3. Create repository
+Click "create repository" at the bottom of the page.
+
+#### 2.4. Copy the  GitHub Repository link
+The GitHub repository link is found here.
+Copy that link.
+
+#### 2.5. Go to terminal
+Go back to terminal for the next step.
+
+#### 2.6 Enter the following command
+```
+git clone <your link here>
+```
+
+### 3. Create a MKDocs Project
 
 
 ### 4. Create a Markdown Resume
