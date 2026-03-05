@@ -150,6 +150,7 @@ To enable GitHub pages, follow the steps below:
 ### I changed the Markdown version of my resume, so why don’t I see the changes when I refresh the website in my browser?  
 
 - Changing the Markdown version of your resume is just one part of saving changes to your webpage. You will need to re-deploy your website on terminal to see the changes you've made.
+To re-deploy your project, run the same
 
 ## Credits
 #### Author: Jericho Dinozo
