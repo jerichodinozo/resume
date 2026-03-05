@@ -82,11 +82,10 @@ Save your markdown resume and name it as "index.md"
 
 ### 5. Add Markdown Resume to Project Folder
 Add your markdown resume to the project folder, specifically in the following directory
-
+```
 docs
 ├─── index.md
-
-
+```
 ### 6. Preview the Website
 Previewing the website allows us to visualize the webpage. To preview our work so far, enter the following command in terminal.
 ```
