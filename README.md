@@ -2,39 +2,60 @@
 This is a guide on how to set up a webpage to display a resume.
 
 ## Purpose
-This guide aims to help those who are new to building webpages to deploy their first project. This guide will display a resume to a webpage. We will be using Markdown to lay the resume details out, Github to host our webpage files, and MKdocs to build a static website.
+This document aims to guide readers who are interested in learning more about technical writing that possess basic understanding of Markdown and the command line interface but are inexperienced with version control systems and static site generators. By the end of this guide, the reader will be able to utilize the technologies mentioned above to host static webpages that follow the guidelines from Etter's "Modern Technical Writing: An Introduction to Software Writing." This guide will be guiding the reader how to use Github, MKDocs, and Github pages to host their webpage.
 
 ## Prerequisites
-- MacOS
+- MacOS: For this guide I will be using a device with MacOS installed
 - Git installed
 - Github account
 - Python installed
-- basic markdown knowledge
+- Basic markdown knowledge
 
 ## Instructions
 
-### MKDocs installation
+### 1. MKDocs installation
 Building a website from scratch can be very tedious. Basic static webpages require knowledge of HTML, some CSS, and maybe some Javascript. Static website generators are tools that help lower the barrier of entry to building websites. In this guide, we will be using the static site generator MKDocs to generate our webpage.
 
-#### Step 1: 
+#### 1.1: Open terminal
+Opening terminal will allow us to install the various programs that we will be needing throughout this guide.
 
-# FAQ
-- When I login to github on terminal, I encounter invalid username or password, how do I fix this?
-This happens when you have 2FA enabled on your account. You will need to generate a token and input that token with your password when you log in.
-
-- When I tried installing Jekyll, I got an error, what do I do?
-No big deal! Try updating your Ruby version then try installing Jekyll again.
-
-# Steps I've done
-I first created a resume using stackedit (a markdown editor). 
-Then I uploaded that resume md file to github.
-
-I did, 
-```
-git commit
-git push origin
-```
-
+#### 1.2: Installing MKDocs
+Once terminal is open, we will input the following command to install MKDocs:
 ```
 python3 -m pip install mkdocs
 ```
+Running the command above allows us to have MKDocs installed in our device.
+
+### 2. Create a GitHub Repository
+
+### 3. Clone GitHub Repository to your Machine
+
+### 4. Create a MKDocs Project
+
+
+### 4. Create a Markdown Resume
+Creating a Markdown resume is simple. For this guide, we took an existing resume and converted it to the Markdown format. Be sure to use appropriate headings and lists when it is needed.
+
+### 5. Add Markdown Resume to Project Folder
+
+### 6. Preview the Website
+Previewing the website allows us to visualize the webpage. To preview our work so far, enter the following command in terminal.
+```
+python3 -m mkdocs serve
+```
+
+### 7. Deploy Project
+Deploying the project to GitHub is the next step to finishing our webpage. 
+
+### 8. Enable GitHub Pages
+
+## Resources
+
+## FAQ
+- Why is Markdown better than writing raw HTML?
+According to Etter's "Modern Technical Writing," some markup languages like HTML tend to require individuals to write less-human readable code that is not suited for an individual that has limited technical background. Markdown is a lightweight markup language that is very simple and easy to follow.
+
+- I changed the Markdown version of my resume, so why don’t I see the changes when I refresh the website in my browser?
+Changing the Markdown version of your resume is just one part of saving changes to your webpage. You will need to re-deploy your website on terminal to see the changes you've made.
+
+## Credits
