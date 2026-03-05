@@ -23,16 +23,16 @@ University of Manitoba -- Winnipeg, MB
 - Monitored and reported security or safety concerns within the clinic environment to appropriate staff
 ### Projects
 Distributed Message Board | Python, TCP and UDP Sockets, Multi-threading, SQLite
--   Designed and implemented a distributed web application consisting of an HTTP server and a separate database service communicating via a custom JSON-based RPC protocol over TCP
--   Implemented manual HTTP request parsing, session-based authentication using cookies, and REST-like API endpoints for user login and message posting
--   Enabled components to run on separate machines within the same network using message passing with length-prefixed frames and timeout handling
--   Demonstrated core distributed systems concepts including fault isolation, network transparency, and client–server architecture
+- Designed and implemented a distributed web application consisting of an HTTP server and a separate database service communicating via a custom JSON-based RPC protocol over TCP
+- Implemented manual HTTP request parsing, session-based authentication using cookies, and REST-like API endpoints for user login and message posting
+- Enabled components to run on separate machines within the same network using message passing with length-prefixed frames and timeout handling
+- Demonstrated core distributed systems concepts including fault isolation, network transparency, and client–server architecture
 
 PCCM Community Website | React, JavaScript, HTML/CSS, Netlify
--   Developed and maintained a community-focused website for the Philippine Community Centre Manitoba, supporting event announcements and organizational information
--   Implemented responsive layouts and reusable React components to improve usability across desktop and mobile devices
--   Worked closely with a graphic design intern to integrate visual assets and align the website with organizational branding
--   Deployed and updated the website using Netlify, enabling reliable hosting and streamlined content updates
+- Developed and maintained a community-focused website for the Philippine Community Centre Manitoba, supporting event announcements and organizational information
+- Implemented responsive layouts and reusable React components to improve usability across desktop and mobile devices
+- Worked closely with a graphic design intern to integrate visual assets and align the website with organizational branding
+- Deployed and updated the website using Netlify, enabling reliable hosting and streamlined content updates
 
 
 
