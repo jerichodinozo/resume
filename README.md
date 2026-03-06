@@ -57,8 +57,7 @@ Choose an easy to remember name for your repository.
 Click "create repository" at the bottom of the page to finish up the setup of your first GitHub repository.
 
 #### 2.4. Copy the  GitHub Repository link
-The GitHub repository link is found here.
-Copy that link.
+Copy the repository link link.
 
 #### 2.5. Go to terminal
 Go back to terminal for the next step.
@@ -149,8 +148,8 @@ To enable GitHub pages, follow the steps below:
 
 ### I changed the Markdown version of my resume, so why don’t I see the changes when I refresh the website in my browser?  
 
-- Changing the Markdown version of your resume is just one part of saving changes to your webpage. You will need to re-deploy your website on terminal to see the changes you've made.
-To re-deploy your project, run the same
+- Changing the Markdown version of your resume is just one part of saving changes to your webpage. You will need to push your changes and re-deploy your website on terminal to see the changes you've made.
+To re-deploy your project, run the same command found on [7. Push your files to GitHub](#7-push-your-files-to-github) and [8. Deploy MkDocs project](#8-deploy-mkdocs-project).
 
 ## Credits
 #### Author: Jericho Dinozo
