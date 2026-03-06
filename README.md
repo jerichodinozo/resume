@@ -20,7 +20,12 @@ This is a guide on how to set up a webpage to display a resume.
 6. [Credits](#credits)
 
 ## Purpose
-This document aims to guide readers who are interested in learning more about technical writing that possess basic understanding of Markdown and the command line interface but are inexperienced with version control systems and static site generators. By the end of this guide, the reader will be able to utilize the technologies mentioned above to host static webpages that follow the guidelines from Etter's "Modern Technical Writing: An Introduction to Software Writing." This guide will be guiding the reader how to use Github, MkDocs, and Github pages to host their webpage.
+This document aims to guide readers who are interested in learning more about technical writing that possess basic understanding of Markdown and the command line interface but are inexperienced with version control systems and static site generators. By the end of this guide, the reader will be able to utilize the technologies mentioned above to host static webpages that follow the guidelines from Etter's "Modern Technical Writing: An Introduction to Software Writing." This guide will be explaining to the reader how to use Github, MkDocs, and Github pages to host their webpage.
+
+In this guide, we will be using the following:
+- Distributed version control system: GitHub
+- Static site generator: MkDocs
+- Forge: GitHub Pages
 
 ## Prerequisites
 - MacOS: For this guide I will be using a device with MacOS installed
@@ -56,8 +61,8 @@ Choose an easy to remember name for your repository.
 #### 2.3. Finish creating a repository
 Click "create repository" at the bottom of the page to finish up the setup of your first GitHub repository.
 
-#### 2.4. Copy the  GitHub Repository link
-Copy the repository link link.
+#### 2.4. Copy the  GitHub repository link
+Copy the repository link.
 
 #### 2.5. Go to terminal
 Go back to terminal for the next step.
@@ -67,26 +72,26 @@ Go back to terminal for the next step.
 git clone <your link here>
 ```
 
-### 3. Create a MkDocs Project
+### 3. Create a MkDocs project
 To create an MkDocs project, we use the following command on the terminal while being on the directory of your preference.
 ```
 python3 -m mkdocs new <title of your project>
 ```
 
 
-### 4. Create a Markdown Resume
+### 4. Create a Markdown resume
 Creating a Markdown resume is simple. According to Etter, using a lightweight markup language makes it simpler for individuals with limited technical background knowledge. Instead of using HTML, we will be using Markdown to create our resume. For this guide, we took an existing resume and converted it to the Markdown format. Be sure to use appropriate headings and lists when it is needed.
 
-#### 4.1. Save Markdown Resume
+#### 4.1. Save Markdown resume
 Save your markdown resume and name it as "index.md"
 
-### 5. Add Markdown Resume to Project Folder
+### 5. Add Markdown resume to project folder
 Add your markdown resume to the project folder, specifically in the following directory
 ```
 docs
 ├─── index.md // replace the existing index.md with your resume
 ```
-### 6. Preview the Website
+### 6. Preview the website
 Previewing the website allows us to visualize the webpage. To preview our work so far, enter the following command in terminal.
 ```
 python3 -m mkdocs serve
